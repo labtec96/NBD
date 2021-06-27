@@ -1,0 +1,622 @@
+MongoDB shell version v4.4.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("42fbf79e-dbff-42be-83dc-e6cf60b4aa9d") }
+MongoDB server version: 4.4.6
+[
+	{
+		"Total balance" : 52973.33,
+		"currency" : "AED"
+	},
+	{
+		"Total balance" : 661834.75,
+		"currency" : "AFN"
+	},
+	{
+		"Total balance" : 651597.87,
+		"currency" : "ALL"
+	},
+	{
+		"Total balance" : 602964.09,
+		"currency" : "AMD"
+	},
+	{
+		"Total balance" : 21354.39,
+		"currency" : "ANG"
+	},
+	{
+		"Total balance" : 67582.8,
+		"currency" : "AOA"
+	},
+	{
+		"Total balance" : 1940347.24,
+		"currency" : "ARS"
+	},
+	{
+		"Total balance" : 242667.03,
+		"currency" : "AUD"
+	},
+	{
+		"Total balance" : 7282.73,
+		"currency" : "AWG"
+	},
+	{
+		"Total balance" : 394880.17,
+		"currency" : "AZN"
+	},
+	{
+		"Total balance" : 415965.47,
+		"currency" : "BAM"
+	},
+	{
+		"Total balance" : 26720.5,
+		"currency" : "BBD"
+	},
+	{
+		"Total balance" : 294843.38,
+		"currency" : "BDT"
+	},
+	{
+		"Total balance" : 496641.83,
+		"currency" : "BGN"
+	},
+	{
+		"Total balance" : 22698.46,
+		"currency" : "BHD"
+	},
+	{
+		"Total balance" : 45782.33,
+		"currency" : "BIF"
+	},
+	{
+		"Total balance" : 5189,
+		"currency" : "BMD"
+	},
+	{
+		"Total balance" : 7782.66,
+		"currency" : "BND"
+	},
+	{
+		"Total balance" : 257433.54,
+		"currency" : "BOB"
+	},
+	{
+		"Total balance" : 5609900,
+		"currency" : "BRL"
+	},
+	{
+		"Total balance" : 55361.39,
+		"currency" : "BSD"
+	},
+	{
+		"Total balance" : 37711.08,
+		"currency" : "BTN"
+	},
+	{
+		"Total balance" : 146972.04,
+		"currency" : "BWP"
+	},
+	{
+		"Total balance" : 686489.84,
+		"currency" : "BYR"
+	},
+	{
+		"Total balance" : 24296.690000000002,
+		"currency" : "BZD"
+	},
+	{
+		"Total balance" : 1973241.6,
+		"currency" : "CAD"
+	},
+	{
+		"Total balance" : 178097.37,
+		"currency" : "CDF"
+	},
+	{
+		"Total balance" : 108940.64,
+		"currency" : "CHF"
+	},
+	{
+		"Total balance" : 388620.14,
+		"currency" : "CLP"
+	},
+	{
+		"Total balance" : 27425502.27,
+		"currency" : "CNY"
+	},
+	{
+		"Total balance" : 1976194.79,
+		"currency" : "COP"
+	},
+	{
+		"Total balance" : 334544.06,
+		"currency" : "CRC"
+	},
+	{
+		"Total balance" : 514413.88,
+		"currency" : "CUP"
+	},
+	{
+		"Total balance" : 46538.51,
+		"currency" : "CVE"
+	},
+	{
+		"Total balance" : 2644211.16,
+		"currency" : "CZK"
+	},
+	{
+		"Total balance" : 14734.27,
+		"currency" : "DJF"
+	},
+	{
+		"Total balance" : 222452.28,
+		"currency" : "DKK"
+	},
+	{
+		"Total balance" : 534069.77,
+		"currency" : "DOP"
+	},
+	{
+		"Total balance" : 12166.2,
+		"currency" : "DZD"
+	},
+	{
+		"Total balance" : 528336.14,
+		"currency" : "EGP"
+	},
+	{
+		"Total balance" : 21598.47,
+		"currency" : "ERN"
+	},
+	{
+		"Total balance" : 269686.62,
+		"currency" : "ETB"
+	},
+	{
+		"Total balance" : 16700089.28,
+		"currency" : "EUR"
+	},
+	{
+		"Total balance" : 9321.43,
+		"currency" : "FJD"
+	},
+	{
+		"Total balance" : 5118.97,
+		"currency" : "FKP"
+	},
+	{
+		"Total balance" : 243512.86,
+		"currency" : "GBP"
+	},
+	{
+		"Total balance" : 157276.96,
+		"currency" : "GEL"
+	},
+	{
+		"Total balance" : 83159.05,
+		"currency" : "GHS"
+	},
+	{
+		"Total balance" : 157963.9,
+		"currency" : "GMD"
+	},
+	{
+		"Total balance" : 73222.48,
+		"currency" : "GNF"
+	},
+	{
+		"Total balance" : 588368.85,
+		"currency" : "GTQ"
+	},
+	{
+		"Total balance" : 13053.5,
+		"currency" : "GYD"
+	},
+	{
+		"Total balance" : 23023.02,
+		"currency" : "HKD"
+	},
+	{
+		"Total balance" : 817695.24,
+		"currency" : "HNL"
+	},
+	{
+		"Total balance" : 689403.5,
+		"currency" : "HRK"
+	},
+	{
+		"Total balance" : 215992.13,
+		"currency" : "HTG"
+	},
+	{
+		"Total balance" : 165192.16,
+		"currency" : "HUF"
+	},
+	{
+		"Total balance" : 15619806.11,
+		"currency" : "IDR"
+	},
+	{
+		"Total balance" : 758807.63,
+		"currency" : "ILS"
+	},
+	{
+		"Total balance" : 24172.940000000002,
+		"currency" : "INR"
+	},
+	{
+		"Total balance" : 167531.82,
+		"currency" : "IQD"
+	},
+	{
+		"Total balance" : 804397.05,
+		"currency" : "IRR"
+	},
+	{
+		"Total balance" : 39048.74,
+		"currency" : "ISK"
+	},
+	{
+		"Total balance" : 201447.71,
+		"currency" : "JMD"
+	},
+	{
+		"Total balance" : 210496.68,
+		"currency" : "JOD"
+	},
+	{
+		"Total balance" : 2584824.9,
+		"currency" : "JPY"
+	},
+	{
+		"Total balance" : 269798.11,
+		"currency" : "KES"
+	},
+	{
+		"Total balance" : 176827.79,
+		"currency" : "KGS"
+	},
+	{
+		"Total balance" : 100447.58,
+		"currency" : "KHR"
+	},
+	{
+		"Total balance" : 138004.7,
+		"currency" : "KMF"
+	},
+	{
+		"Total balance" : 222518.63,
+		"currency" : "KPW"
+	},
+	{
+		"Total balance" : 433497.06,
+		"currency" : "KRW"
+	},
+	{
+		"Total balance" : 82506.07,
+		"currency" : "KWD"
+	},
+	{
+		"Total balance" : 16809.66,
+		"currency" : "KYD"
+	},
+	{
+		"Total balance" : 584923.2,
+		"currency" : "KZT"
+	},
+	{
+		"Total balance" : 86305.05,
+		"currency" : "LAK"
+	},
+	{
+		"Total balance" : 43326.06,
+		"currency" : "LBP"
+	},
+	{
+		"Total balance" : 225111.38999999998,
+		"currency" : "LKR"
+	},
+	{
+		"Total balance" : 54883.45,
+		"currency" : "LRD"
+	},
+	{
+		"Total balance" : 26269.07,
+		"currency" : "LSL"
+	},
+	{
+		"Total balance" : 220627.42,
+		"currency" : "LTL"
+	},
+	{
+		"Total balance" : 197545.65,
+		"currency" : "LYD"
+	},
+	{
+		"Total balance" : 510936.11,
+		"currency" : "MAD"
+	},
+	{
+		"Total balance" : 173318.73,
+		"currency" : "MDL"
+	},
+	{
+		"Total balance" : 377675.55,
+		"currency" : "MGA"
+	},
+	{
+		"Total balance" : 436912.01,
+		"currency" : "MKD"
+	},
+	{
+		"Total balance" : 223284.76,
+		"currency" : "MMK"
+	},
+	{
+		"Total balance" : 639977.48,
+		"currency" : "MNT"
+	},
+	{
+		"Total balance" : 5337.77,
+		"currency" : "MOP"
+	},
+	{
+		"Total balance" : 44471.32,
+		"currency" : "MRO"
+	},
+	{
+		"Total balance" : 182130.48,
+		"currency" : "MUR"
+	},
+	{
+		"Total balance" : 32068.850000000002,
+		"currency" : "MVR"
+	},
+	{
+		"Total balance" : 88106.83,
+		"currency" : "MWK"
+	},
+	{
+		"Total balance" : 1547673.09,
+		"currency" : "MXN"
+	},
+	{
+		"Total balance" : 666533.65,
+		"currency" : "MYR"
+	},
+	{
+		"Total balance" : 92068.64,
+		"currency" : "MZN"
+	},
+	{
+		"Total balance" : 55420.34,
+		"currency" : "NAD"
+	},
+	{
+		"Total balance" : 1282147.14,
+		"currency" : "NGN"
+	},
+	{
+		"Total balance" : 240664.87,
+		"currency" : "NIO"
+	},
+	{
+		"Total balance" : 760113.61,
+		"currency" : "NOK"
+	},
+	{
+		"Total balance" : 146606.65,
+		"currency" : "NPR"
+	},
+	{
+		"Total balance" : 338447.54,
+		"currency" : "NZD"
+	},
+	{
+		"Total balance" : 87008.08,
+		"currency" : "OMR"
+	},
+	{
+		"Total balance" : 363643.61,
+		"currency" : "PAB"
+	},
+	{
+		"Total balance" : 2356548.02,
+		"currency" : "PEN"
+	},
+	{
+		"Total balance" : 61445.270000000004,
+		"currency" : "PGK"
+	},
+	{
+		"Total balance" : 8223429.02,
+		"currency" : "PHP"
+	},
+	{
+		"Total balance" : 687770.55,
+		"currency" : "PKR"
+	},
+	{
+		"Total balance" : 5069581.99,
+		"currency" : "PLN"
+	},
+	{
+		"Total balance" : 286515.48,
+		"currency" : "PYG"
+	},
+	{
+		"Total balance" : 36358.92,
+		"currency" : "QAR"
+	},
+	{
+		"Total balance" : 11557.6,
+		"currency" : "RON"
+	},
+	{
+		"Total balance" : 817403.54,
+		"currency" : "RSD"
+	},
+	{
+		"Total balance" : 8532474.09,
+		"currency" : "RUB"
+	},
+	{
+		"Total balance" : 43299.96,
+		"currency" : "RWF"
+	},
+	{
+		"Total balance" : 161706,
+		"currency" : "SAR"
+	},
+	{
+		"Total balance" : 9983,
+		"currency" : "SBD"
+	},
+	{
+		"Total balance" : 14797.58,
+		"currency" : "SCR"
+	},
+	{
+		"Total balance" : 127317.75,
+		"currency" : "SDG"
+	},
+	{
+		"Total balance" : 3710091.49,
+		"currency" : "SEK"
+	},
+	{
+		"Total balance" : 12820.48,
+		"currency" : "SGD"
+	},
+	{
+		"Total balance" : 116224.9,
+		"currency" : "SLL"
+	},
+	{
+		"Total balance" : 82203.48,
+		"currency" : "SOS"
+	},
+	{
+		"Total balance" : 19686.77,
+		"currency" : "SRD"
+	},
+	{
+		"Total balance" : 42256.53,
+		"currency" : "SSP"
+	},
+	{
+		"Total balance" : 4854.36,
+		"currency" : "STD"
+	},
+	{
+		"Total balance" : 501467.35,
+		"currency" : "SYP"
+	},
+	{
+		"Total balance" : 59113.090000000004,
+		"currency" : "SZL"
+	},
+	{
+		"Total balance" : 2084269.88,
+		"currency" : "THB"
+	},
+	{
+		"Total balance" : 177401.05,
+		"currency" : "TJS"
+	},
+	{
+		"Total balance" : 113099.62,
+		"currency" : "TMT"
+	},
+	{
+		"Total balance" : 325755.9,
+		"currency" : "TND"
+	},
+	{
+		"Total balance" : 18424.47,
+		"currency" : "TOP"
+	},
+	{
+		"Total balance" : 18414.53,
+		"currency" : "TRY"
+	},
+	{
+		"Total balance" : 44044.89,
+		"currency" : "TTD"
+	},
+	{
+		"Total balance" : 37654,
+		"currency" : "TWD"
+	},
+	{
+		"Total balance" : 603855.99,
+		"currency" : "TZS"
+	},
+	{
+		"Total balance" : 2505840.72,
+		"currency" : "UAH"
+	},
+	{
+		"Total balance" : 345203.25,
+		"currency" : "UGX"
+	},
+	{
+		"Total balance" : 4086760.81,
+		"currency" : "USD"
+	},
+	{
+		"Total balance" : 231996.14,
+		"currency" : "UYU"
+	},
+	{
+		"Total balance" : 330309.61,
+		"currency" : "UZS"
+	},
+	{
+		"Total balance" : 629053.41,
+		"currency" : "VEF"
+	},
+	{
+		"Total balance" : 1395639.11,
+		"currency" : "VND"
+	},
+	{
+		"Total balance" : 23188.93,
+		"currency" : "VUV"
+	},
+	{
+		"Total balance" : 30739.64,
+		"currency" : "WST"
+	},
+	{
+		"Total balance" : 736336.77,
+		"currency" : "XAF"
+	},
+	{
+		"Total balance" : 168150.01,
+		"currency" : "XCD"
+	},
+	{
+		"Total balance" : 934043.61,
+		"currency" : "XOF"
+	},
+	{
+		"Total balance" : 132926.01,
+		"currency" : "XPF"
+	},
+	{
+		"Total balance" : 583657.38,
+		"currency" : "YER"
+	},
+	{
+		"Total balance" : 932463.66,
+		"currency" : "ZAR"
+	},
+	{
+		"Total balance" : 160940.53,
+		"currency" : "ZMW"
+	},
+	{
+		"Total balance" : 142978.86,
+		"currency" : "ZWL"
+	}
+]

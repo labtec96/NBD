@@ -1,0 +1,24 @@
+////1
+curl -XPOST -i -H "Content-Type: application/json" -d '{"model": "audi", "years": 10, "works": false, "price": 22000}' http://localhost:8098/buckets/s15831/keys/car1
+curl -XPOST -i -H "Content-Type: application/json" -d '{"model": "audi", "years": 15, "works": true"price": 100000}' http://localhost:8098/buckets/s15831/keys/car2
+curl -XPOST -i -H "Content-Type: application/json" -d '{"model": "volvo", "years": 15, "works": false, "price": 2000}' http://localhost:8098/buckets/s15831/keys/car3
+curl -XPOST -i -H "Content-Type: application/json" -d '{"model": "toyota", "years": 7, "works": false, "price": 112000}' http://localhost:8098/buckets/s15831/keys/car4
+curl -XPOST -i -H "Content-Type: application/json" -d '{"model": "bmw", "years": 1, "works": true" price": 80000}' http://localhost:8098/buckets/s15831/keys/car5
+////2
+curl -i http://localhost:8098/buckets/s15831/keys/car1
+////3
+curl -XPUT -i -H "Content-Type: application/json" -d '{"model": "audi", "years": 10, "works": false, "price": 22000, "owner": tom}' http://localhost:8098/buckets/s15831/keys/car1
+////4
+curl -XPUT -i -H "Content-Type: application/json" -d '{"model": "audi", "years": 10, "works": false, "price": 22000}' http://localhost:8098/buckets/s15831/keys/car1
+////5
+curl -XPUT -i -H "Content-Type: application/json" -d '{"model": "audi", "years": 10, "works": true, "price": 22000}' http://localhost:8098/buckets/s15831/keys/car1
+////6
+curl -XDELETE -i http://localhost:8098/buckets/s15831/keys/car1
+////7 Pobranie poprzednio usunięty samochód
+ curl -i http://localhost:8098/buckets/s15831/keys/car1
+////8
+curl -XPOST -i -H "Content-Type: application/json" -d '{"opis": "test bez klucza"}' http://localhost:8098/buckets/s15831/keys/
+////9 Pobranie po kluczu zwróconym w odpowiedzi
+curl -i http://localhost:8098/buckets/s15831/keys/BX4SfiK7YdTHeWcjRn7hgYhqFVO
+////10
+curl -XDELETE -i http://localhost:8098/buckets/s15831/keys/BX4SfiK7YdTHeWcjRn7hgYhqFVO

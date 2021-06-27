@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvp8zc1kbRCiRMY+VwcjE9xZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15831>; rel="up"
+Last-Modified: Sun, 27 Jun 2021 17:41:06 GMT
+ETag: "5r82za0UKzoUbZZci8VBrr"
+Date: Sun, 27 Jun 2021 17:43:49 GMT
+Content-Type: application/json,
+Content-Length: 125
+
+{"model": "audi", "years": 10, "works": false, "price": 22000}

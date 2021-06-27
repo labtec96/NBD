@@ -1,0 +1,4 @@
+New doc added
+Doc file: {u'color': u'blue', u'name': u'Kros2', u'inStore': True}
+Modify doc: {u'color': u'blue', u'name': u'Kros2', u'inStore': False}
+Deleted doc: None
